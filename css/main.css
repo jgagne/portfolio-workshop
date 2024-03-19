@@ -14,3 +14,12 @@ p {
   font-family: serif;
   line-height: 1.5;
 }
+
+a {
+  color: inherit;
+}
+
+a:hover,
+a:focus {
+  color: #ff0;
+}
