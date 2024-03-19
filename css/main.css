@@ -1,3 +1,7 @@
+html {
+  font: 100%/1.15 sans-serif;
+}
+
 body {
   max-width: 60rem;
   padding: 0 1rem;
