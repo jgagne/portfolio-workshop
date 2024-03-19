@@ -4,7 +4,8 @@ html {
 
 body {
   max-width: 60rem;
-  background-color: hotpink;
+  background-color: #000;
+  color: #fff;
   padding: 0 1rem;
   margin: 0 auto;
 }
