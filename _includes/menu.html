@@ -1,8 +1,6 @@
-{% assign link = data.menu %}
-
 <nav>
   <ul>
-  {% for link in links %}
+  {% for link in site.data.menu.links %}
     <li>a href="{{ site.baseurl }}{{ link.url }}">{{ link.label }}</li></a>
   {% endfor %}
   </ul>
