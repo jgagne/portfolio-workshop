@@ -5,4 +5,4 @@ title: Portfolio Homepage
 
 # Portfolio
 
-## Hi, I'm Justin, a designer based in Prague.
+## Hi, I'm Rad, a designer based in Prague.
