@@ -1,14 +1,9 @@
----
-links:
-- label: Home
-  url:
-- label: Blog
-  url: /blog
----
+{% assign link = data.menu %}
+
 <nav>
   <ul>
-  {% for link in page.links %}
-    <li>a href="{{ site.baseurl }}{{ link.url }}">{{ link.label }}</li></a>
+  {% for link in menu.links %}
+    <li>a href="{{ site.baseurl }}{{ menu.url }}">{{ link.label }}</li></a>
   {% endfor %}
   </ul>
 </nav>
