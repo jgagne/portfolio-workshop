@@ -2,8 +2,8 @@
 
 <nav>
   <ul>
-  {% for link in menu.links %}
-    <li>a href="{{ site.baseurl }}{{ menu.url }}">{{ link.label }}</li></a>
+  {% for link in links %}
+    <li>a href="{{ site.baseurl }}{{ link.url }}">{{ link.label }}</li></a>
   {% endfor %}
   </ul>
 </nav>
