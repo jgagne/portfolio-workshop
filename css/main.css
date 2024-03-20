@@ -10,9 +10,23 @@ body {
   margin: 0 auto;
 }
 
+/* Enlarge text size on wider width screens */
+
+@media (min-width: 60em) {
+  
+  body {
+    font-size: 125%;
+  }
+
+}
+
+p,
+li {
+  line-height: 1.5;
+}
+
 p {
   font-family: serif;
-  line-height: 1.5;
 }
 
 a {
