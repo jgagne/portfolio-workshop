@@ -1,6 +1,14 @@
+---
+links:
+- label: Home
+  url:
+- label: Blog
+  url: /blog
+---
 <nav>
   <ul>
-    <li><a href="{{ site.baseurl }}">Home</a></li>
-    <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+  {% for link in page.links %}
+    <li>a href="{{ site.baseurl }}{{ link.url }}">{{ link.label }}</li></a>
+  {% endfor %}
   </ul>
 </nav>
